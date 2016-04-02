@@ -1,0 +1,146 @@
+* {
+	 background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(50%, rgba(41,184,229,1)), color-stop(100%, rgba(188,224,238,1)));
+background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+}
+.container {
+	margin-top:20px;
+}
+
+.container > a {
+	float:right;
+}
+
+.container form {
+	width:20%;
+	margin: 0 auto;
+	text-align:center;
+	margin-top:100px;
+	border: 1px solid lightgray;
+	border-radius:5px;
+}
+
+.container form .input {
+	display:block;
+	margin: 20px auto;
+}
+
+.container form button{
+	display:block;
+	margin: 20px auto;
+}
+
+.container form#updateProfileForm {
+	width:30%;
+	margin: 0 auto;
+	text-align:center;
+	margin-top:100px;
+	padding:40px;
+	border: 1px solid lightgray;
+	border-radius:5px;
+}
+
+.container form#updateProfileForm .input {
+	display:block;
+	margin: 20px auto;
+}
+
+.container form#updateProfileForm button{
+	display:block;
+	margin: 20px auto;
+}
+
+.container div.profile {
+	width:50%;
+	margin: 0 auto;
+	margin-top:100px;
+	padding:40px;
+	border: 1px solid lightgray;
+	border-radius:5px;
+}
+
+.container div.profile span {
+	font-weight:lighter;
+}
+
+.container {
+      text-align: center;
+    }
+  
+ .container input {
+        width: 50%;
+        height: 30px;
+       text-align: center;
+    }
+
+ input.ng-invalid.ng-touched {
+ transition:0.5s linear all;
+ background: red;
+}
+
+.hello
+{
+  -webkit-animation-duration: 4.8s;-webkit-animation-iteration-count: 1;-webkit-animation-fill-mode: both;-webkit-animation-name: first;
+  -moz-animation-duration: 4.8s;-moz-animation-iteration-count: 1;-moz-animation-fill-mode: both;-moz-animation-name: first;
+  -ms-animation-duration: 4.8s;-ms-animation-iteration-count: 1;-ms-animation-fill-mode: both;-ms-animation-name: first;
+  animation-duration: 4.8s;animation-iteration-count: 1;animation-fill-mode: both;animation-name: first;
+ }
+@-webkit-keyframes first 
+{
+  0% {-webkit-transform: translate(000px,1500px);}
+  20% {-webkit-transform: translate(000px,65px);}
+  25%,65%,75% {-webkit-transform: translate(000px,85px);}
+  100% {-webkit-transform: translate(000px,-300px);}
+}
+@-moz-keyframes first 
+{
+  0% {-moz-transform: translate(000px,1500px);}
+  20% {-moz-transform: translate(000px,65px);}
+  25%,65%,75% {-moz-transform: translate(000px,85px);}
+  100% {-moz-transform: translate(000px,-300px);}
+}
+@-ms-keyframes first 
+{
+  0% {-ms-transform: translate(000px,1500px);}
+  20% {-ms-transform: translate(000px,65px);}
+  25%,65%,75% {-ms-transform: translate(000px,85px);}
+  100% {-ms-transform: translate(000px,-300px);}
+}
+@keyframes first 
+{
+  0% {transform: translate(000px,1500px);}
+  20% {transform: translate(000px,65px);}
+  25%,65%,75% {transform: translate(000px,85px);}
+  100% {transform: translate(000px,-300px);}
+}
+
+
+h1 {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+.hvr-fade {
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    width: 50px
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    border-radius: 4px;
+    color: darkgreen
+}
+
+.hvr-fade:hover,
+.hvr-fade:focus,
+.hvr-fade:active {
+    transform: scale(1.1);
+}
+
